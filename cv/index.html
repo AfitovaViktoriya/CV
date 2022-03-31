@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
       <div class="container-left">
-        <header>
+        <header class="header">
           <div class="section section-profile">
             <img class="avatar" src="assets/img/avatar.jpg" alt="avatar" />
             <h1 class="profile-title">Viktoriya Afitova</h1>
@@ -27,7 +27,7 @@
             <h2 class="section-title-left">Contacts</h2>
             <ul class="contacts-list">
               <li class="section-item contacts-item">Minsk, Belarus</li>
-              <li class="section-item contacts-item">+375 29 657 97 27</li>
+              <li class="section-item contacts-item">+375 29 657-97-27</li>
               <li class="section-item contacts-item">
                 <a href="mailto:afitovaviktoria@gmail.com" title="email"
                   >afitovaviktoria@gmail.com</a
@@ -54,55 +54,54 @@
               </li>
             </ul>
           </section>
-          <section class="section">
-            <h2 class="section-title-left">Education</h2>
-            <ul>
-              <li class="section-item">
-                <span>2006-2012</span>
-                <p>lawyer:<br />'Moskow New Institute of Law'</p>
-              </li>
-              <li class="section-item">
-                <span>2002-2006</span>
-                <p>
-                  modern foreign languages:<br />'Minsk State Linguistic
-                  College'
-                </p>
-              </li>
-            </ul>
-          </section>
-          <section class="section">
-            <h2 class="section-title-left">Courses</h2>
-            <ul>
-              <li class="section-item">
-                <span>Front-end Developer</span>
-                <p>'RS School Course' (in progress)</p>
-              </li>
-              <li class="section-item">
-                Front-end Developer<span> - 'IT Step'</span>
-              </li>
-              <li class="section-item">
-                English<span> - 'Word without borders'</span>
-              </li>
-            </ul>
-          </section>
-          <section class="section">
-            <h2 class="section-title-left">Languages</h2>
-            <ul>
-              <li class="section-item">
-                English<span> - B1 - Pre-Intermediate</span>
-              </li>
-              <li class="section-item">German<span> - Basic</span></li>
-            </ul>
-          </section>
-          <section class="section">
-            <h2 class="section-title-left">Interests</h2>
-            <ul>
-              <li class="section-item">learning programming</li>
-              <li class="section-item">learning English</li>
-              <li class="section-item">dancing</li>
-            </ul>
-          </section>
         </header>
+        <section class="section">
+          <h2 class="section-title-left">Education</h2>
+          <ul>
+            <li class="section-item">
+              <span>2006-2012</span>
+              <p>lawyer:<br />'Moskow New Institute of Law'</p>
+            </li>
+            <li class="section-item">
+              <span>2002-2006</span>
+              <p>
+                modern foreign languages:<br />'Minsk State Linguistic College'
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="section">
+          <h2 class="section-title-left">Courses</h2>
+          <ul>
+            <li class="section-item">
+              <span>Front-end Developer</span>
+              <p>'RS School Course' (in progress)</p>
+            </li>
+            <li class="section-item">
+              Front-end Developer<span> - 'IT Step'</span>
+            </li>
+            <li class="section-item">
+              English<span> - 'Word without borders'</span>
+            </li>
+          </ul>
+        </section>
+        <section class="section">
+          <h2 class="section-title-left">Languages</h2>
+          <ul>
+            <li class="section-item">
+              English<span> - B1 - Pre-Intermediate</span>
+            </li>
+            <li class="section-item">German<span> - Basic</span></li>
+          </ul>
+        </section>
+        <section class="section">
+          <h2 class="section-title-left">Interests</h2>
+          <ul>
+            <li class="section-item">learning programming</li>
+            <li class="section-item">learning English</li>
+            <li class="section-item">dancing</li>
+          </ul>
+        </section>
       </div>
       <div class="container-right">
         <main>
@@ -121,14 +120,14 @@
           </section>
           <section class="section">
             <h2 class="section-title-right">Expirience</h2>
-            <div class="container-expirience">
+            <div class="container-expirience__first">
               <div class="section-subtitle">
                 <small class="subtile-item-small"
                   >Front-end developer<br />2021-2022</small
                 >
               </div>
               <div class="section-description">
-                <p>IT STEP:</p>
+                <p class="course-title">IT STEP:</p>
                 <p>
                   I learned how to develop web pages using HTML/CSS, I developed
                   websites with adaptive and semantic layout. I know client
@@ -136,6 +135,20 @@
                   process and parse data using JSON, the principles of creating
                   asynchronous API requests. I understand the implementation of
                   React applications.
+                </p>
+              </div>
+            </div>
+            <div class="container-expirience__second">
+              <div class="section-subtitle">
+                <small class="subtile-item-small">JS / FE<br />2021-2022</small>
+              </div>
+              <div class="section-description">
+                <p class="course-title">RSschool:</p>
+                <p>
+                  I consolidated my knowledge of the basics of HTML / CSS,
+                  adaptive and semantic layout. I fixed the basics of
+                  JavaScript. Functions, Objects and Arrays. DOM API and DOM
+                  Events. I studied Algorithms and Data Structures.
                 </p>
               </div>
             </div>
@@ -153,6 +166,12 @@
                 <a href="https://afitovaviktoriya.github.io/weather-app/"
                   >Weather-app</a
                 >
+              </li>
+              <li class="section-item">
+                <a href="https://afitovaviktoriya.github.io/react_app/"
+                  >React-app</a
+                >
+                (using https://fakestoreapi.com/)
               </li>
             </ul>
           </section>
