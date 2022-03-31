@@ -142,10 +142,10 @@ header,
     background-image: url("assets/svg/home.svg");
 }
 .contacts-item:nth-child(2):before {
-    background-image: url("assets/svg/email.svg");
+    background-image: url("assets/svg/phone.svg");
 }
 .contacts-item:nth-child(3):before {
-    background-image: url("assets/svg/phone.svg");
+    background-image: url("assets/svg/email.svg");
 }
 .contacts-item:nth-child(4):before {
     background-image: url("assets/svg/github.svg");
@@ -206,6 +206,7 @@ pre {
 @media (max-width: 1024px) {
     .wrapper {
         max-width: 1024px;
+        margin: 20px;
     }
     .container-left,
     .container-right {
@@ -220,6 +221,7 @@ pre {
 @media (max-width: 768px) {
     .wrapper {
         max-width: 768px;
+        margin: 0;
     }
     .container-left,
     .container-right {
@@ -230,6 +232,7 @@ pre {
     .wrapper {
         max-width: 425px;
         grid-template-columns: 1fr;
+        margin: 0;
     }
     .container-left,
     .container-right {
