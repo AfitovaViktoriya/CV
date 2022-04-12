@@ -1,1 +1,1 @@
-https://afitovaviktoriya.github.io/cv/
+https://afitovaviktoriya.github.io/cv/cv/
