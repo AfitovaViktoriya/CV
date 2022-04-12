@@ -212,8 +212,11 @@ pre {
 .certificate {
   width: 100%;
 }
+.footer {
+
+}
 .footer-container {
-  background-color: var(--color-dark-l);
+  background-color: var(--color-dark-l);padding-bottom: 10px;
 }
 
 /** Adaptive **/
