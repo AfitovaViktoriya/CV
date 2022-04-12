@@ -205,6 +205,10 @@ pre {
 .certificate-container {
   max-width: 300px;
 }
+.certificate-container {
+  display: flex;
+  gap: 20px;
+}
 .certificate {
   width: 100%;
 }
