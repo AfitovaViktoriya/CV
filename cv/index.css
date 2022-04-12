@@ -212,8 +212,11 @@ pre {
 .certificate {
   width: 100%;
 }
+.footer {
+
+}
 .footer-container {
-  background-color: var(--color-dark-l);
+  background-color: var(--color-dark-l);padding-bottom: 10px;
 }
 
 /** Adaptive **/
@@ -232,6 +235,11 @@ pre {
   .wrapper {
     max-width: 700px;
     margin: 20px auto;
+  }
+  .certificate-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 @media (max-width: 425px) {
