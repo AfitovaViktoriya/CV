@@ -44,7 +44,7 @@ body {
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
-  background-color: var(--color-dark-l);
+  background-color: var(--color-dark-s);
   padding: 20px;
 }
 .header,
@@ -59,10 +59,11 @@ body {
 .avatar {
   width: 200px;
   object-fit: cover;
+  border: 1px solid var(--color-dark-l);
 }
 .profile-title,
 .profile-subtitle {
-  color: var(--color-light-s);
+  color: var(--color-dark-l);
 }
 .profile-title {
   font-size: var(--font-size-large);
@@ -203,7 +204,7 @@ pre {
   margin: 0;
 }
 .footer-container {
-  background-color: var(--color-dark-l);
+  background-color: var(--color-dark-s);
   padding-bottom: 10px;
 }
 
