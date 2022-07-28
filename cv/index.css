@@ -200,9 +200,6 @@ p {
 .project-title {
   font-weight: 1000;
 }
-pre {
-  margin: 0;
-}
 .footer-container {
   background-color: var(--color-dark-s);
   padding-bottom: 10px;
